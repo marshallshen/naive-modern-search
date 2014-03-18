@@ -1,0 +1,1459 @@
+{
+  "Person": {
+    "gender": {
+      "count": 1.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Male",
+          "creator": "/user/seqcmd",
+          "id": "/m/05zppz",
+          "timestamp": "2007-05-03T07:21:20Z"
+        }
+      ]
+    },
+    "spouse_s": {
+      "count": 1.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/mwcl_infobox",
+          "text": "Lanai - Melinda Gates - 1994-01-01 - Marriage - Freebase Data Team - Marriage",
+          "timestamp": "2007-06-08T02:35:47.008Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Marriage",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/people/marriage",
+                  "timestamp": "2007-06-08T02:35:00.011Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Freebase Data Team",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/m/0jsg18",
+                  "timestamp": "2007-06-08T02:35:00.011Z"
+                }
+              ]
+            },
+            "/people/marriage/type_of_union": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Marriage",
+                  "creator": "/user/anne8",
+                  "id": "/m/04ztj",
+                  "timestamp": "2008-07-24T23:54:58Z"
+                }
+              ]
+            },
+            "/people/marriage/spouse": {
+              "count": 2.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Melinda Gates",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/m/0dmp4",
+                  "timestamp": "2007-06-08T02:35:11.006Z"
+                }
+              ]
+            },
+            "/people/marriage/location_of_ceremony": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Lanai",
+                  "creator": "/user/ellennor",
+                  "id": "/m/0133gw",
+                  "timestamp": "2013-09-10T14:12:09Z"
+                }
+              ]
+            },
+            "/people/marriage/to": {
+              "count": 0.0,
+              "status": "has_no_value",
+              "values": []
+            },
+            "/people/marriage/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1994-01-01",
+                  "creator": "/user/anne8",
+                  "value": "1994-01-01",
+                  "timestamp": "2008-07-31T05:23:12Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/02kkxn3"
+        }
+      ]
+    },
+    "/people/person": {},
+    "profession": {
+      "count": 5.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Entrepreneur",
+          "creator": "/user/bolyardtrey",
+          "id": "/m/09x_r",
+          "timestamp": "2007-07-28T07:35:48Z"
+        },
+        {
+          "lang": "en",
+          "text": "Programmer",
+          "creator": "/user/mw_prop_bot",
+          "id": "/m/05xls",
+          "timestamp": "2007-10-06T07:10:48.003Z"
+        },
+        {
+          "lang": "en",
+          "text": "Businessperson",
+          "creator": "/user/mw_prop_bot",
+          "id": "/m/012t_z",
+          "timestamp": "2008-03-03T10:21:16Z"
+        },
+        {
+          "lang": "en",
+          "text": "Investor",
+          "creator": "/user/googlebot",
+          "id": "/m/025sppp",
+          "timestamp": "2012-01-18T05:24:35Z"
+        },
+        {
+          "lang": "en",
+          "text": "Software Architect",
+          "creator": "/user/googlebot",
+          "id": "/m/07h_62",
+          "timestamp": "2012-01-18T05:27:56Z"
+        }
+      ]
+    },
+    "sibling_s": {
+      "count": 2.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/igupta",
+          "text": "igupta - Libby Gates - Sibling Relationship",
+          "timestamp": "2012-04-20T02:56:29Z",
+          "property": {
+            "/people/sibling_relationship/sibling": {
+              "count": 2.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Libby Gates",
+                  "creator": "/user/igupta",
+                  "id": "/m/0j8ryqf",
+                  "timestamp": "2012-04-20T02:56:29Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Sibling Relationship",
+                  "creator": "/user/igupta",
+                  "id": "/people/sibling_relationship",
+                  "timestamp": "2012-04-20T02:56:29Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "igupta",
+                  "creator": "/user/igupta",
+                  "id": "/m/0j67w4s",
+                  "timestamp": "2012-04-20T02:56:29Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/0j8ryqd"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/igupta",
+          "text": "igupta - Kristi Gates - Sibling Relationship",
+          "timestamp": "2012-04-20T02:56:29.001Z",
+          "property": {
+            "/people/sibling_relationship/sibling": {
+              "count": 2.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Kristi Gates",
+                  "creator": "/user/igupta",
+                  "id": "/m/0j8ryqr",
+                  "timestamp": "2012-04-20T02:56:29.001Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Sibling Relationship",
+                  "creator": "/user/igupta",
+                  "id": "/people/sibling_relationship",
+                  "timestamp": "2012-04-20T02:56:29.001Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "igupta",
+                  "creator": "/user/igupta",
+                  "id": "/m/0j67w4s",
+                  "timestamp": "2012-04-20T02:56:29.001Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/0j8ryqq"
+        }
+      ]
+    },
+    "employment_history": {
+      "count": 5.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/mwcl_infobox",
+          "text": "2006 - Freebase Data Team - Microsoft Corporation - Chief Software Architect - Employment tenure",
+          "timestamp": "2007-08-09T04:35:57Z",
+          "property": {
+            "/business/employment_tenure/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "2006",
+                  "creator": "/user/earlye",
+                  "value": "2006",
+                  "timestamp": "2008-08-31T02:35:04.001Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/title": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chief Software Architect",
+                  "creator": "/user/earlye",
+                  "id": "/m/030nz1x",
+                  "timestamp": "2008-07-13T18:44:11Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Employment tenure",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/business/employment_tenure",
+                  "timestamp": "2007-08-09T04:27:13.003Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Freebase Data Team",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/m/0jsg18",
+                  "timestamp": "2007-08-09T04:27:13.003Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/company": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/mwcl_infobox",
+                  "id": "/m/04sv4",
+                  "timestamp": "2007-08-09T04:30:13.006Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/02t7k19"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/earlye",
+          "text": "1975 - earlye - Microsoft Corporation - Employment tenure",
+          "timestamp": "2008-07-13T19:04:54Z",
+          "property": {
+            "/business/employment_tenure/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1975",
+                  "creator": "/user/earlye",
+                  "value": "1975",
+                  "timestamp": "2008-07-13T19:04:54Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Employment tenure",
+                  "creator": "/user/earlye",
+                  "id": "/business/employment_tenure",
+                  "timestamp": "2008-07-13T19:04:54Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2008-07-13T19:04:54Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/company": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/earlye",
+                  "id": "/m/04sv4",
+                  "timestamp": "2008-07-13T19:04:54Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04c_wns"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/mw_template_bot",
+          "text": "Freebase Data Team - Cascade Investment - Employment tenure",
+          "timestamp": "2008-07-18T22:53:51Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Employment tenure",
+                  "creator": "/user/mw_template_bot",
+                  "id": "/business/employment_tenure",
+                  "timestamp": "2008-07-18T22:53:51Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Freebase Data Team",
+                  "creator": "/user/mw_template_bot",
+                  "id": "/m/03jtjff",
+                  "timestamp": "2008-07-18T22:53:51Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/company": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Cascade Investment",
+                  "creator": "/user/mw_template_bot",
+                  "id": "/m/03cs4bl",
+                  "timestamp": "2008-07-18T22:53:51Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04dd7md"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/earlye",
+          "text": "2006 - earlye - Microsoft Corporation - Chief Executive Officer - Employment tenure",
+          "timestamp": "2008-08-31T02:35:04Z",
+          "property": {
+            "/business/employment_tenure/to": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "2006",
+                  "creator": "/user/earlye",
+                  "value": "2006",
+                  "timestamp": "2008-08-31T02:35:04Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Employment tenure",
+                  "creator": "/user/earlye",
+                  "id": "/business/employment_tenure",
+                  "timestamp": "2008-08-31T02:35:04Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/company": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/earlye",
+                  "id": "/m/04sv4",
+                  "timestamp": "2008-08-31T02:35:04Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/title": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chief Executive Officer",
+                  "creator": "/user/earlye",
+                  "id": "/m/0dq_5",
+                  "timestamp": "2008-08-31T02:35:04Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2008-08-31T02:35:04Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04j6nwk"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/mgutierrezt",
+          "text": "1981 - mgutierrezt - Microsoft Corporation - President - Employment tenure",
+          "timestamp": "2009-03-31T15:18:49Z",
+          "property": {
+            "/business/employment_tenure/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1981",
+                  "creator": "/user/mgutierrezt",
+                  "value": "1981",
+                  "timestamp": "2009-03-31T15:18:49Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/title": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "President",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/m/060c4",
+                  "timestamp": "2009-03-31T15:18:49Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Employment tenure",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/business/employment_tenure",
+                  "timestamp": "2009-03-31T15:18:49Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "mgutierrezt",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/m/02yxl2_",
+                  "timestamp": "2009-03-31T15:18:49Z"
+                }
+              ]
+            },
+            "/business/employment_tenure/company": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/m/04sv4",
+                  "timestamp": "2009-03-31T15:18:49Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/05ndtqb"
+        }
+      ]
+    },
+    "date_of_birth": {
+      "count": 1.0,
+      "valuetype": "datetime",
+      "values": [
+        {
+          "lang": "",
+          "text": "1955-10-28",
+          "creator": "/user/mwcl_musicbrainz",
+          "value": "1955-10-28",
+          "timestamp": "2006-12-10T16:31:50.016Z"
+        }
+      ]
+    },
+    "parents": {
+      "count": 2.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Mary Maxwell Gates",
+          "creator": "/user/smyjpmu",
+          "id": "/m/0cnwp4",
+          "timestamp": "2007-07-27T16:41:33Z"
+        },
+        {
+          "lang": "en",
+          "text": "William H. Gates, Sr.",
+          "creator": "/user/smyjpmu",
+          "id": "/m/027z0k",
+          "timestamp": "2007-07-27T16:40:22Z"
+        }
+      ]
+    },
+    "education": {
+      "count": 2.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/mgutierrezt",
+          "text": "1975 - Harvard College - mgutierrezt - 1973 - Education",
+          "timestamp": "2009-03-31T15:17:01Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Education",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/education/education",
+                  "timestamp": "2009-03-31T15:17:01Z"
+                }
+              ]
+            },
+            "/education/education/degree": {
+              "count": 0.0,
+              "status": "has_no_value",
+              "values": []
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "mgutierrezt",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/m/02yxl2_",
+                  "timestamp": "2009-03-31T15:17:01Z"
+                }
+              ]
+            },
+            "/education/education/major_field_of_study": {
+              "count": 0.0,
+              "status": "has_value",
+              "values": []
+            },
+            "/education/education/end_date": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1975",
+                  "creator": "/user/alsasuncion",
+                  "value": "1975",
+                  "timestamp": "2013-07-02T04:49:06Z"
+                }
+              ]
+            },
+            "/education/education/institution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Harvard College",
+                  "creator": "/user/mgutierrezt",
+                  "id": "/m/01mpwj",
+                  "timestamp": "2009-03-31T15:17:01Z"
+                }
+              ]
+            },
+            "/education/education/start_date": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1973",
+                  "creator": "/user/mgutierrezt",
+                  "value": "1973",
+                  "timestamp": "2009-03-31T15:17:01Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/05ndtmv"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/earlye",
+          "text": "1973 - Lakeside School - earlye - 1968 - Education",
+          "timestamp": "2009-03-31T23:41:57Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Education",
+                  "creator": "/user/earlye",
+                  "id": "/education/education",
+                  "timestamp": "2009-03-31T23:41:57Z"
+                }
+              ]
+            },
+            "/education/education/degree": {
+              "count": 0.0,
+              "status": "has_value",
+              "values": []
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2009-03-31T23:41:57Z"
+                }
+              ]
+            },
+            "/education/education/major_field_of_study": {
+              "count": 0.0,
+              "status": "has_value",
+              "values": []
+            },
+            "/education/education/end_date": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1973",
+                  "creator": "/user/hgfm27",
+                  "value": "1973",
+                  "timestamp": "2012-06-15T13:51:19Z"
+                }
+              ]
+            },
+            "/education/education/institution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Lakeside School",
+                  "creator": "/user/earlye",
+                  "id": "/m/01jv5g",
+                  "timestamp": "2009-03-31T23:41:57Z"
+                }
+              ]
+            },
+            "/education/education/start_date": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1968",
+                  "creator": "/user/mathiaswolter",
+                  "value": "1968",
+                  "timestamp": "2013-10-09T10:10:00Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/05nkrh3"
+        }
+      ]
+    },
+    "place_of_birth": {
+      "count": 1.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Seattle",
+          "creator": "/user/mwcl_infobox",
+          "id": "/m/0d9jr",
+          "timestamp": "2007-05-28T19:37:39Z"
+        }
+      ]
+    },
+    "weight_kg": {
+      "count": 1.0,
+      "valuetype": "float",
+      "values": [
+        {
+          "lang": "en",
+          "text": "61.37",
+          "creator": "/user/yananekula",
+          "value": 61.37,
+          "timestamp": "2012-11-25T16:51:16Z"
+        }
+      ]
+    },
+    "nationality": {
+      "count": 1.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "United States of America",
+          "creator": "/user/subtext",
+          "id": "/m/09c7w0",
+          "timestamp": "2007-07-10T21:51:18Z"
+        }
+      ]
+    },
+    "quotations": {
+      "count": 4.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Microsoft looks at new ideas, they don't evaluate whether the idea will move the industry forward, they ask, 'how will it help us sell more copies of Windows?'",
+          "creator": "/user/davidar",
+          "id": "/m/051t7f6",
+          "timestamp": "2008-12-20T06:27:17Z"
+        },
+        {
+          "lang": "en",
+          "text": "It's fine to celebrate success but it is more important to heed the lessons of failure",
+          "creator": "/user/gr8gatsby",
+          "id": "/m/0gdjk9y",
+          "timestamp": "2011-02-27T15:56:00Z"
+        },
+        {
+          "lang": "en",
+          "text": "I believe that if you show people the problems and you show them the solutions they will be moved to act.",
+          "creator": "/user/gr8gatsby",
+          "id": "/m/0gdjkc_",
+          "timestamp": "2011-02-27T15:58:11Z"
+        },
+        {
+          "lang": "en",
+          "text": "Your most unhappy customers are your greatest source of learning.",
+          "creator": "/user/avishekb",
+          "id": "/m/0jvfqd1",
+          "timestamp": "2012-05-20T15:34:43Z"
+        }
+      ]
+    },
+    "height_meters": {
+      "count": 1.0,
+      "valuetype": "float",
+      "values": [
+        {
+          "lang": "en",
+          "text": "1.78",
+          "creator": "/user/goddess888",
+          "value": 1.78,
+          "timestamp": "2013-09-24T12:56:48Z"
+        }
+      ]
+    },
+    "children": {
+      "count": 3.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Jennifer Katharine Gates",
+          "creator": "/user/bolyardtrey",
+          "id": "/m/02s5z69",
+          "timestamp": "2007-07-28T07:38:36.001Z"
+        },
+        {
+          "lang": "en",
+          "text": "Phoebe Adele Gates",
+          "creator": "/user/bolyardtrey",
+          "id": "/m/02n_gxg",
+          "timestamp": "2007-07-28T07:37:01Z"
+        },
+        {
+          "lang": "en",
+          "text": "Rory John Gates",
+          "creator": "/user/bolyardtrey",
+          "id": "/m/02n_gx7",
+          "timestamp": "2007-07-28T07:36:49Z"
+        }
+      ]
+    },
+    "ethnicity": {
+      "count": 1.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Scottish American",
+          "creator": "/user/deleted_2011_06_06",
+          "id": "/m/07bch9",
+          "timestamp": "2009-11-16T17:59:25.005Z"
+        }
+      ]
+    }
+  },
+  "BusinessPerson": {
+    "leader_of": {
+      "count": 1.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/btdtrang",
+          "text": "2000-01-12 - Microsoft Corporation - 1975-04-04 - btdtrang - Chief Executive Officer - Chief Executive Officer - Organization leadership",
+          "timestamp": "2013-07-19T10:48:01Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Organization leadership",
+                  "creator": "/user/btdtrang",
+                  "id": "/organization/leadership",
+                  "timestamp": "2013-07-19T10:48:01Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "btdtrang",
+                  "creator": "/user/btdtrang",
+                  "id": "/m/0vbjxvw",
+                  "timestamp": "2013-07-19T10:48:01Z"
+                }
+              ]
+            },
+            "/organization/leadership/title": {
+              "count": 1.0,
+              "valuetype": "string",
+              "values": [
+                {
+                  "lang": "vi",
+                  "text": "Chief Executive Officer",
+                  "creator": "/user/btdtrang",
+                  "value": "Chief Executive Officer",
+                  "timestamp": "2013-07-19T10:48:01Z"
+                }
+              ]
+            },
+            "/organization/leadership/to": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "2000-01-12",
+                  "creator": "/user/sjcho",
+                  "value": "2000-01-12",
+                  "timestamp": "2013-09-30T15:43:44Z"
+                }
+              ]
+            },
+            "/organization/leadership/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1975-04-04",
+                  "creator": "/user/sjcho",
+                  "value": "1975-04-04",
+                  "timestamp": "2013-09-30T15:43:26Z"
+                }
+              ]
+            },
+            "/organization/leadership/organization": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/btdtrang",
+                  "id": "/m/04sv4",
+                  "timestamp": "2013-07-19T10:48:01Z"
+                }
+              ]
+            },
+            "/organization/leadership/role": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chief Executive Officer",
+                  "creator": "/user/sjcho",
+                  "id": "/m/0dq_5",
+                  "timestamp": "2013-09-30T15:44:07Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/0w8ry91"
+        }
+      ]
+    },
+    "/business/board_member": {},
+    "organization_board_memberships": {
+      "count": 4.0,
+      "valuetype": "compound",
+      "values": [
+        {
+          "lang": "en",
+          "creator": "/user/earlye",
+          "text": "Bill & Melinda Gates Foundation - Co-Chairman - earlye - Organization governorship",
+          "timestamp": "2008-08-31T02:35:57Z",
+          "property": {
+            "/organization/organization_board_membership/organization": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Bill & Melinda Gates Foundation",
+                  "creator": "/user/earlye",
+                  "id": "/m/012mjr",
+                  "timestamp": "2008-08-31T02:35:57Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Organization governorship",
+                  "creator": "/user/earlye",
+                  "id": "/organization/organization_board_membership",
+                  "timestamp": "2008-08-31T02:35:57Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2008-08-31T02:35:57Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/title": {
+              "count": 1.0,
+              "valuetype": "string",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Co-Chairman",
+                  "creator": "/user/gardening_bot",
+                  "value": "Co-Chairman",
+                  "timestamp": "2010-07-30T00:38:02.001Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04j6nww"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/gardening_bot",
+          "text": "1981 - Microsoft Corporation - Chairman - Chairman - robert - 2014-02-04 - Organization governorship",
+          "timestamp": "2010-07-30T00:38:48Z",
+          "property": {
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Organization governorship",
+                  "creator": "/user/gardening_bot",
+                  "id": "/organization/organization_board_membership",
+                  "timestamp": "2010-07-30T00:38:48Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "robert",
+                  "creator": "/user/robert",
+                  "id": "/m/0j8zw8",
+                  "timestamp": "2007-04-20T22:17:59Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/organization": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Microsoft Corporation",
+                  "creator": "/user/gardening_bot",
+                  "id": "/m/04sv4",
+                  "timestamp": "2010-07-30T00:38:48Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1981",
+                  "creator": "/user/gardening_bot",
+                  "value": "1981",
+                  "timestamp": "2010-07-30T00:38:48Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/to": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "2014-02-04",
+                  "creator": "/user/gmackenz",
+                  "value": "2014-02-04",
+                  "timestamp": "2014-02-05T02:54:04Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/title": {
+              "count": 1.0,
+              "valuetype": "string",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chairman",
+                  "creator": "/user/gmackenz",
+                  "value": "Chairman",
+                  "timestamp": "2014-02-05T02:55:47Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/role": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chairman",
+                  "creator": "/user/gmackenz",
+                  "id": "/m/09d6p2",
+                  "timestamp": "2014-02-05T02:56:38Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/02h53n7"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/gardening_bot",
+          "text": "2004 - Berkshire Hathaway - earlye - Organization governorship",
+          "timestamp": "2010-07-30T03:09:56Z",
+          "property": {
+            "/organization/organization_board_membership/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "2004",
+                  "creator": "/user/gardening_bot",
+                  "value": "2004",
+                  "timestamp": "2010-07-30T03:09:56Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/organization": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Berkshire Hathaway",
+                  "creator": "/user/gardening_bot",
+                  "id": "/m/01tmng",
+                  "timestamp": "2010-07-30T03:09:56Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Organization governorship",
+                  "creator": "/user/gardening_bot",
+                  "id": "/organization/organization_board_membership",
+                  "timestamp": "2010-07-30T03:09:56Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2008-07-13T18:43:03Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04c_w9_"
+        },
+        {
+          "lang": "en",
+          "creator": "/user/gardening_bot",
+          "text": "1989 - Corbis - Chair - earlye - Organization governorship",
+          "timestamp": "2010-07-30T03:09:56.001Z",
+          "property": {
+            "/organization/organization_board_membership/from": {
+              "count": 1.0,
+              "valuetype": "datetime",
+              "values": [
+                {
+                  "lang": "",
+                  "text": "1989",
+                  "creator": "/user/gardening_bot",
+                  "value": "1989",
+                  "timestamp": "2010-07-30T03:09:56.001Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/organization": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Corbis",
+                  "creator": "/user/gardening_bot",
+                  "id": "/m/02fzrq",
+                  "timestamp": "2010-07-30T03:09:56.001Z"
+                }
+              ]
+            },
+            "/type/object/type": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Organization governorship",
+                  "creator": "/user/gardening_bot",
+                  "id": "/organization/organization_board_membership",
+                  "timestamp": "2010-07-30T03:09:56Z"
+                }
+              ]
+            },
+            "/type/object/attribution": {
+              "count": 1.0,
+              "valuetype": "object",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "earlye",
+                  "creator": "/user/earlye",
+                  "id": "/m/02_5dlr",
+                  "timestamp": "2008-07-13T19:01:05Z"
+                }
+              ]
+            },
+            "/organization/organization_board_membership/title": {
+              "count": 1.0,
+              "valuetype": "string",
+              "values": [
+                {
+                  "lang": "en",
+                  "text": "Chair",
+                  "creator": "/user/gardening_bot",
+                  "value": "Chair",
+                  "timestamp": "2010-07-30T03:09:56.001Z"
+                }
+              ]
+            }
+          },
+          "id": "/m/04c_wjn"
+        }
+      ]
+    }
+  },
+  "Author": {
+    "works_written": {
+      "count": 3.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Business @ the Speed of Thought: Using a Digital Nervous System",
+          "creator": "/user/earlye",
+          "id": "/m/01xfkm",
+          "timestamp": "2008-07-13T18:56:21Z"
+        },
+        {
+          "lang": "en",
+          "text": "The Road Ahead",
+          "creator": "/user/ts_bot",
+          "id": "/m/01sqgw",
+          "timestamp": "2008-11-03T17:25:53.001Z"
+        },
+        {
+          "lang": "en",
+          "text": "Open Letter to Hobbyists",
+          "creator": "/user/fact_farm",
+          "id": "/m/01lt72",
+          "timestamp": "2013-12-12T18:13:07Z"
+        }
+      ]
+    },
+    "openlibrary_id": {
+      "count": 1.0,
+      "valuetype": "string",
+      "values": [
+        {
+          "lang": "",
+          "text": "OL34537A",
+          "creator": "/user/ts_bot",
+          "value": "OL34537A",
+          "timestamp": "2009-05-04T19:38:11Z"
+        }
+      ]
+    },
+    "/book/author": {},
+    "book_editions_published": {
+      "count": 16.0,
+      "valuetype": "object",
+      "values": [
+        {
+          "lang": "en",
+          "text": "Los Negocios En La Era Digital",
+          "creator": "/user/ts_bot",
+          "id": "/m/04txs8t",
+          "timestamp": "2008-11-10T20:09:47.005Z"
+        },
+        {
+          "lang": "en",
+          "text": "Der Weg Nach Vorn",
+          "creator": "/user/ts_bot",
+          "id": "/m/04txs91",
+          "timestamp": "2008-11-10T20:09:47.006Z"
+        },
+        {
+          "lang": "en",
+          "text": "The Road Ahead",
+          "creator": "/user/ts_bot",
+          "id": "/m/04txs98",
+          "timestamp": "2008-11-10T20:09:47.007Z"
+        },
+        {
+          "lang": "en",
+          "text": "Business at the Speed of Thought (Penguin Joint Venture Readers)",
+          "creator": "/user/ts_bot",
+          "id": "/m/04txs9q",
+          "timestamp": "2008-11-10T20:09:47.008Z"
+        },
+        {
+          "lang": "en",
+          "text": "Bill Gates speaks",
+          "creator": "/user/ts_bot",
+          "id": "/m/04txs9z",
+          "timestamp": "2008-11-10T20:09:47.009Z"
+        },
+        {
+          "lang": "en",
+          "text": "Business @ the Speed of Thought",
+          "creator": "/user/ts_bot",
+          "id": "/m/04v22tc",
+          "timestamp": "2008-11-11T19:51:15.001Z"
+        },
+        {
+          "lang": "en",
+          "text": "Business @ the Speed of Thought: Using a Digital Nervous System",
+          "creator": "/user/ts_bot",
+          "id": "/m/04v22vd",
+          "timestamp": "2008-11-11T19:51:15.005Z"
+        },
+        {
+          "lang": "en",
+          "text": "Business @ the Speed of Thought",
+          "creator": "/user/ts_bot",
+          "id": "/m/04v22vx",
+          "timestamp": "2008-11-11T19:51:15.006Z"
+        },
+        {
+          "lang": "en",
+          "text": "The Road Ahead",
+          "creator": "/user/ts_bot",
+          "id": "/m/04vhdjk",
+          "timestamp": "2008-11-13T02:26:15Z"
+        },
+        {
+          "lang": "en",
+          "text": "The Road Ahead",
+          "creator": "/user/ts_bot",
+          "id": "/m/04vhdk0",
+          "timestamp": "2008-11-13T02:26:15.001Z"
+        }
+      ]
+    }
+  }
+}

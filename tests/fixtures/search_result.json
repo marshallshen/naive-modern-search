@@ -1,0 +1,199 @@
+{
+    "cost": 12,
+    "cursor": 20,
+    "hits": 3659,
+    "result": [
+        {
+            "id": "/en/j_r_r_tolkien",
+            "lang": "en",
+            "mid": "/m/041h0",
+            "name": "J. R. R. Tolkien",
+            "notable": {
+                "id": "/book/author",
+                "name": "Author"
+            },
+            "score": 68.496932999999999
+        },
+        {
+            "id": "/en/christopher_tolkien",
+            "lang": "en",
+            "mid": "/m/096yh",
+            "name": "Christopher Tolkien",
+            "notable": {
+                "id": "/book/author",
+                "name": "Author"
+            },
+            "score": 25.441593000000001
+        },
+        {
+            "id": "/en/tolkien_fandom",
+            "lang": "en",
+            "mid": "/m/02l2bb",
+            "name": "Tolkien fandom",
+            "score": 24.971032999999998
+        },
+        {
+            "id": "/en/tolkien_family",
+            "lang": "en",
+            "mid": "/m/02p7d87",
+            "name": "Tolkien family",
+            "score": 24.797598000000001
+        },
+        {
+            "id": "/en/tolkien_estate",
+            "lang": "en",
+            "mid": "/m/03_8_2",
+            "name": "Tolkien Estate",
+            "score": 18.583796
+        },
+        {
+            "id": "/en/edith_tolkien",
+            "lang": "en",
+            "mid": "/m/020w6w",
+            "name": "Edith Tolkien",
+            "notable": {
+                "id": "/m/02zsn",
+                "name": "Woman"
+            },
+            "score": 18.313768
+        },
+        {
+            "id": "/en/the_lord_of_the_ring",
+            "lang": "en",
+            "mid": "/m/07bz5",
+            "name": "The Lord of the Rings",
+            "notable": {
+                "id": "/m/01hmnh",
+                "name": "Fantasy Book"
+            },
+            "score": 17.229579999999999
+        },
+        {
+            "id": "/en/tolkien_research",
+            "lang": "en",
+            "mid": "/m/04034r",
+            "name": "Tolkien research",
+            "notable": {
+                "id": "/book/book_subject",
+                "name": "Literature Subject"
+            },
+            "score": 16.883780000000002
+        },
+        {
+            "id": "/en/simon_tolkien",
+            "lang": "en",
+            "mid": "/m/071jlb",
+            "name": "Simon Tolkien",
+            "notable": {
+                "id": "/m/02xhgwq",
+                "name": "Novelist"
+            },
+            "score": 16.780792000000002
+        },
+        {
+            "id": "/en/tolkien_tourist",
+            "lang": "en",
+            "mid": "/m/04042qm",
+            "name": "Tolkien tourism",
+            "score": 16.756572999999999
+        },
+        {
+            "id": "/en/languages_of_arda",
+            "lang": "en",
+            "mid": "/m/0f0gx",
+            "name": "Languages constructed by J. R. R. Tolkien",
+            "score": 16.474155
+        },
+        {
+            "id": "/en/terry_pratchett",
+            "lang": "en",
+            "mid": "/m/07d3x",
+            "name": "Terry Pratchett",
+            "notable": {
+                "id": "/m/02xhgwq",
+                "name": "Novelist"
+            },
+            "score": 15.920970000000001
+        },
+        {
+            "id": "/en/tolkien_ensemble",
+            "lang": "en",
+            "mid": "/m/01ng5s0",
+            "name": "The Tolkien Ensemble",
+            "notable": {
+                "id": "/music/musical_group",
+                "name": "Musical Group"
+            },
+            "score": 15.348258
+        },
+        {
+            "id": "/en/tolkien_studies",
+            "lang": "en",
+            "mid": "/m/027vjny",
+            "name": "Tolkien Studies",
+            "notable": {
+                "id": "/book/journal",
+                "name": "Journal"
+            },
+            "score": 15.200046
+        },
+        {
+            "lang": "en",
+            "mid": "/m/0dd8rks",
+            "name": "J.R. Tolkien",
+            "score": 14.573256000000001
+        },
+        {
+            "id": "/en/tim_tolkien",
+            "lang": "en",
+            "mid": "/m/0968pb",
+            "name": "Tim Tolkien",
+            "notable": {
+                "id": "/m/06msq",
+                "name": "Sculpture Artist"
+            },
+            "score": 13.732502999999999
+        },
+        {
+            "id": "/en/the_tolkien_reader",
+            "lang": "en",
+            "mid": "/m/08pmmd",
+            "name": "The Tolkien Reader",
+            "notable": {
+                "id": "/m/0707q",
+                "name": "Short Story Book"
+            },
+            "score": 12.096472
+        },
+        {
+            "id": "/en/tolkiens_legendarium",
+            "lang": "en",
+            "mid": "/m/02607sl",
+            "name": "Tolkien's legendarium",
+            "score": 12.077703
+        },
+        {
+            "id": "/authority/imdb/name/nm0866057",
+            "lang": "en",
+            "mid": "/m/0kbl721",
+            "name": "John Tolkien",
+            "notable": {
+                "id": "/m/05xjb",
+                "name": "Priest"
+            },
+            "score": 11.732794
+        },
+        {
+            "id": "/authority/imdb/name/nm0866059",
+            "lang": "en",
+            "mid": "/m/0kbl71v",
+            "name": "Priscilla Tolkien",
+            "notable": {
+                "id": "/m/02h5fq7",
+                "name": "Social Worker"
+            },
+            "score": 11.626557
+        }
+    ],
+    "status": "200 OK"
+}

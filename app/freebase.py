@@ -1,41 +1,29 @@
 # -*- coding: utf-8 -*-
 # API Wrapper for Freebase API
-import json
-import urllib
+from __init__ import *
 
 BASE_URL = 'https://www.googleapis.com/freebase/v1/'
-API_KEY = "AIzaSyCKQ-u52zqYuBcWxsldypTi0bFEkkPttCE"
-
 class FreebaseClient(object):
     def __init__(self, api_key):
         self.api_key = api_key
-        self.search_results = []
-        self.topic_results = []
-
-    def params(self, query):
-        return {'query': query, 'key': self.api_key}
 
     def search(self, query):
         service_url = BASE_URL + 'search'
-        url = service_url + '?' + urllib.urlencode(self.params(query))
-        print urllib.urlopen(url).read()
-        response = json.loads(urllib.urlopen(url).read())
-        for result in response['result']:
-            self.search_results.append(result)
-            print result['name'] + ' (' + str(result['score']) + ')'
+        params = {'query': query, 'key': self.api_key}
+        url = service_url + '?' + urllib.urlencode(params)
 
-        return self.search_results
+        return json.loads(urllib.urlopen(url).read())
 
-    def topic(self, query):
-        return null
+    def topic(self, topic_id):
+        service_url = BASE_URL + 'topic' + topic_id
+        params = {'key': self.api_key}
+        url = service_url + '?' + urllib.urlencode(params)
 
-def main():
-    freebase_client = FreebaseClient(API_KEY)
-    freebase_client.search("Tolkien")
+        return json.loads(urllib.urlopen(url).read())
 
-if __name__ == "__main__":
-    main()
+    def mql(self, query):
+        service_url = BASE_URL + 'mqlread'
+        params = {'query': json.dumps(query), 'key': self.api_key}
+        url = service_url + '?' + urllib.urlencode(params)
 
-
-
-
+        return json.loads(urllib.urlopen(url).read())

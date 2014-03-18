@@ -1,0 +1,14 @@
+{
+  "result": [
+    {
+      "/book/author/works_written": [
+        {
+          "a:name": "Lord of Rings 1 Vol Pa 12c 2001 Mti"
+        }
+      ],
+      "type": "/book/author",
+      "id": "/en/j_r_r_tolkien",
+      "name": "J. R. R. Tolkien"
+    }
+  ]
+}
