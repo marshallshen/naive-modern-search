@@ -9,4 +9,4 @@ def test_person():
     assert_equal(person.birthday, '1955-10-28')
     assert_equal(person.place_of_birth, 'Seattle')
     assert_equal(person.siblings, ['Libby Gates', 'Kristi Gates'])
-    assert_equal(person.spouses, ['Melinda Gates'])
+    assert_equal(person.spouses, [u'Melinda Gates @ Lanai  1994-01-01'])

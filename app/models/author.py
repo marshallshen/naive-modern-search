@@ -19,4 +19,5 @@ class Author(object):
         for book_about in self.books_about:
             table.add_row(['    ', book_about])
         table.header = False
+        table.align = 'l'
         print table

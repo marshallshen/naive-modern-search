@@ -39,6 +39,7 @@ class SportsTeam(object):
         for league in self.leagues:
             table.add_row(["    ", league])
         table.header = False
+        table.align = 'l'
         print table
 
         nested_table = PrettyTable()
@@ -50,4 +51,5 @@ class SportsTeam(object):
         for coach in self.coaches:
             nested_table.add_row(["     ", coach.get("coach"), coach.get("position"), coach.get("from"), coach.get("to")])
         nested_table.header = False
+        nested_table.align = 'l'
         print nested_table

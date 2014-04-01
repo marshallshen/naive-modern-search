@@ -12,4 +12,5 @@ class Actor(object):
         table = PrettyTable(["Films", "Character", "Film Name"])
         for film in self.films:
             table.add_row(["    ", film.get('character'), film.get('film')])
+        table.align = 'l'
         print table

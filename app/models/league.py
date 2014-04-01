@@ -26,4 +26,5 @@ class League(object):
         for team in self.teams:
             table.add_row(["        ", team])
         table.header = False
+        table.align = 'l'
         print table

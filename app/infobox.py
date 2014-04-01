@@ -62,12 +62,17 @@ class InfoBox(object):
 
         # extract description
         result['Description'] = raw_topic_response['property']['/common/topic/description']
-        # extract general information for organization
+        # extract more information for organization
         if result.get('League'):
             if raw_topic_response['property'].get('/organization/organization/slogan'):
                 result['League']['slogan'] = raw_topic_response['property']['/organization/organization/slogan']
             if raw_topic_response['property'].get('/common/topic/official_website'):
                 result['League']['official_website'] = raw_topic_response['property']['/common/topic/official_website']
+        # extract more information for business_person
+        if result.get('BusinessPerson'):
+            if raw_topic_response['property'].get('/influence/influence_node/influenced'):
+                result['BusinessPerson']['influenced'] = raw_topic_response['property']['/influence/influence_node/influenced']
+
 
         return result
 
@@ -89,6 +94,15 @@ class InfoBox(object):
             self.entities += [SportsTeam().extract(transformed_response['SportsTeam'])]
         if transformed_response.get('Description'):
             self.entities += [Description().extract(transformed_response['Description'])]
+
+        header = str(self.query) + "("
+        for entity in self.entities:
+            if entity.__class__.__name__ != "Description":
+                header = header + "  " + str(entity.__class__.__name__)
+        header = header +  ")"
+        print "----------------------------------"
+        print header
+        print "----------------------------------"
 
         for entity in self.entities:
             entity.print_box()
