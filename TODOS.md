@@ -10,4 +10,4 @@
 ## Bug fix:
 - Return "influenced" for business_person √
 - Return more info about person's spouse √
-- Magic8Box
+- Magic8Box: group the answers by creators

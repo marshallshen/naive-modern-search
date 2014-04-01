@@ -8,7 +8,8 @@ API_KEY = "AIzaSyCKQ-u52zqYuBcWxsldypTi0bFEkkPttCE"
 class Magic8Ball(object):
     def __init__(self, raw_query, api_key):
         self.client = FreebaseClient(api_key)
-        self.query_detail = self.translate(raw_query)
+        self.raw_query = raw_query
+        self.query_details = self.translate(raw_query)
 
     def translate(self, raw_query):
         # TODO: regex for pattern matching
@@ -17,29 +18,48 @@ class Magic8Ball(object):
         else:
             print "Invalid query, {}...".format(raw_query)
             sys.exit(0)
-        return self.__queryable_detail__(subject)
+        return [{'query': self.__author__(subject), 'property': '/book/author/works_written', 'type': 'Author'},
+                {'query': self.__business_person__(subject), 'property': '/organization/organization_founder/organizations_founded', 'type': 'BusinessPerson'}]
 
     def answer(self):
-        results = []
-        for result in self.client.mql(self.query_detail['query'])['result']:
-            if result.get(self.query_detail['property']):
-                for result_detail in result[self.query_detail['property']]:
-                    results += ["{} created {}".format(result['name'], result_detail['a:name'])]
-
         table = PrettyTable()
-        for result in results:
-            table.add_row([result])
+
+        print "------------------------------------------"
+        print self.raw_query
+        print "------------------------------------------"
+
+        # Beginning compose results
+        results_hash = {}
+        for query_detail in self.query_details:
+            results_hash[query_detail['type']] = {}
+            for result in self.client.mql(query_detail['query'])['result']:
+                if result.get(query_detail['property']):
+                    for result_detail in result[query_detail['property']]:
+                        results_hash[query_detail['type']][result['name']] = result_detail['a:name']
+
+        print results_hash
+
+        compact_results_hash = {}
+        for type, answers_by_type in results_hash.iteritems():
+            compact_results_hash_by_type = {}
+            for key, value in answers_by_type.iteritems():
+                if compact_results_hash_by_type.get(key):
+                    compact_results_hash[key] += [value]
+                else:
+                    compact_results_hash_by_type[key] = [value]
+            compact_results_hash[type] = compact_results_hash_by_type
+        # Ending compose results
+
+        # Beginning printing results
+        for type, answers_by_type in compact_results_hash.iteritems():
+            for creator, creations in answers_by_type.iteritems():
+                table.add_row([creator, 'AS', 'Creation'])
+                table.add_row(['    ', type, '/n '.join(creations)])
+        # Ending printing results
+
         table.header = False
-
+        table.align = 'l'
         print table
-        return results
-
-    def __queryable_detail__(self, subject):
-        mid = self.client.search(subject)['result'][0]['mid']
-        for type in self.client.topic(mid)['property'].keys():
-            if 'organization' in type:
-                return {'query': self.__business_person__(subject), 'property': '/organization/organization_founder/organizations_founded'}
-        return {'query': self.__author__(subject), 'property': '/book/author/works_written'}
 
     def __author__(self, name):
         return  [{ "/book/author/works_written": [{
