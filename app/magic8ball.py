@@ -37,8 +37,6 @@ class Magic8Ball(object):
                     for result_detail in result[query_detail['property']]:
                         results_hash[query_detail['type']][result['name']] = result_detail['a:name']
 
-        print results_hash
-
         compact_results_hash = {}
         for type, answers_by_type in results_hash.iteritems():
             compact_results_hash_by_type = {}
@@ -58,6 +56,7 @@ class Magic8Ball(object):
         # Ending printing results
 
         table.header = False
+        table.padding_width = 5
         table.align = 'l'
         print table
 
