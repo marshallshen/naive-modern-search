@@ -17,7 +17,7 @@ Two major features are supported: Infobox and Magic 8 Ball.
 Note: I passed in my api key as the default so you don't have to pass it in.
       The option of mandating an api key can be easily supported.
 
-### Infobox
+### Retrieve basic info: Infobox
 ===========================================================================
 Inside the project directory. Sample test queries can be ran as the following:
 ```
@@ -30,8 +30,7 @@ python app/infobox.py "NY Knicks"
 python app/infobox.py "Miami Heat"
 ```
 
-## Question answer
-### Magic 8 Ball
+### Question answer: Magic 8 Ball
 ===========================================================================
 Notes: the questions must closely follow the semantics of the question:
   "Who created [X]?", where [X] is replaced by your entitye of interest.
@@ -216,12 +215,12 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
 
 Examples of how a model uses the 4 methods to populate values:
 
-  ---------------------------------------------------------------------------------------------------------------
-  |Model type        |Attribute               |Extract method                                                   |
-  |------------------|------------------------|-----------------------------------------------------------------|
-  |Author            |books                   |extract_values_by_text('books')                                  |
-  |                  |books_about             |extract_values_by_text(extracted_hash, 'book_editions_published')|
-  ---------------------------------------------------------------------------------------------------------------
+
+  | Model Type | Attribute   | Extract Method                                                    |
+  |------------|-------------|-------------------------------------------------------------------|
+  | Author     | books       | extract_values_by_text(hash, 'books')                             |
+  |            | books_about | extract_values_by_text(extracted_hash, 'book_editions_published') |
+  | Person     | birthday    |                                                                   |
 
   Note: each model closely follow the same template. If you look at app/models/[model_name].py, the logic of how the information got extracted should be self-explanatory.
 
