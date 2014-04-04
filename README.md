@@ -1,6 +1,6 @@
 # Naive Modern Search
 
-### An implmentation of modern information retrieval based on magic of Freebase
+### An implmentation of modern information retrieval using [Freebase](www.freebase.com)
 --------------------------------------------------------------------------
 
 ## Dependency
@@ -53,7 +53,7 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
 
 ## Design overview
 
-### Main workflow of Infobox
+### Extract information for Infobox
 ===========================================================================
 - 6 entities of interest are included in the infobox, each entity is established as a model.
 - Each model has its own attributes to extract, has its own way to print out a sub infobox.
@@ -226,7 +226,7 @@ Examples of how a model uses the 4 methods to populate values:
 
   Note: each model closely follow the same template. If you look at app/models/[model_name].py, the logic of how the information got extracted should be self-explanatory.
 
-### Main workflow of Magic 8 Ball
+### Extract information for Magic 8 Ball
 ===========================================================================
 Two types mql qureies can be made for business person and author
 The queries are able to answer questions such as "Who created [X]".
