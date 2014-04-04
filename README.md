@@ -1,6 +1,6 @@
 # Naive Modern Search
 
-### An implmentation of modern information retrieval based on magic of Freebase
+### An implmentation of modern information retrieval using [Freebase](www.freebase.com)
 --------------------------------------------------------------------------
 
 ## Dependency
