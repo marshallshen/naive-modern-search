@@ -216,11 +216,11 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
 Examples of how a model uses the 4 methods to populate values:
 
 
-| Model Type | Attribute   | Extract Method                                                    |
-|------------|-------------|-------------------------------------------------------------------|
-| Author     | books       | extract_values_by_text(hash, 'books')                             |
-|            | books_about | extract_values_by_text(extracted_hash, 'book_editions_published') |
-| Person     | birthday    |                                                                   |
+| Model Type | Primary Type       | Attribute   | Extract Method                                                    |
+|------------|--------------------|-------------|-------------------------------------------------------------------|
+| Author     | '/book/author'     | books       | extract_values_by_text(hash, 'books')                             |
+|            |                    | books_about | extract_values_by_text(extracted_hash, 'book_editions_published') |
+| Person     | '/people/person'   | birthday    | extract_value_by_text(extracted_hash, 'date_of_birth')            |
 
   Note: each model closely follow the same template. If you look at app/models/[model_name].py, the logic of how the information got extracted should be self-explanatory.
 
