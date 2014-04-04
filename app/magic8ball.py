@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-import re
-
 from __init__ import *
 from freebase import FreebaseClient
 

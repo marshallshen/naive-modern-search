@@ -43,13 +43,18 @@ class SportsTeam(object):
         print table
 
         nested_table = PrettyTable()
-        nested_table.add_row(["Roster", "Player", "Position", "From", "To"])
-        for roster in self.players_roster:
-            nested_table.add_row(["      ", roster.get("player"), roster.get("position"), roster.get("from"), roster.get("to")])
-        nested_table.add_row(["     ", "    ", "    ", "    ", "    "])
-        nested_table.add_row(["Coach", "Name", "Position", "From", "To"])
-        for coach in self.coaches:
-            nested_table.add_row(["     ", coach.get("coach"), coach.get("position"), coach.get("from"), coach.get("to")])
-        nested_table.header = False
-        nested_table.align = 'l'
-        print nested_table
+        if len(self.players_roster) > 0:
+            nested_table.add_row(["Roster", "Player", "Position", "From", "To"])
+            for roster in self.players_roster:
+                nested_table.add_row(["      ", roster.get("player"), roster.get("position"), roster.get("from"), roster.get("to")])
+
+        if len(self.coaches) > 0:
+            nested_table.add_row(["     ", "    ", "    ", "    ", "    "])
+            nested_table.add_row(["Coach", "Name", "Position", "From", "To"])
+            for coach in self.coaches:
+                nested_table.add_row(["     ", coach.get("coach"), coach.get("position"), coach.get("from"), coach.get("to")])
+
+        if (len(self.players_roster) > 0 or len(self.coaches) > 0):
+            nested_table.header = False
+            nested_table.align = 'l'
+            print nested_table

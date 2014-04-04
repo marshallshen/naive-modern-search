@@ -16,6 +16,9 @@ PROPERTIES = {'Person' : ['/people/person'],
               'League' : ['/sports/sports_league'],
               'SportsTeam' : ['/sports/sports_team', '/sports/professional_sports_team']}
 
+# excluded these patterns during transforming
+EXCLUDED_PROPERTIES = ["/tv/tv_actor/guest_roles"]
+
 API_KEY = "AIzaSyCKQ-u52zqYuBcWxsldypTi0bFEkkPttCE"
 class InfoBox(object):
     def __init__(self, query, api_key):
@@ -73,8 +76,8 @@ class InfoBox(object):
             if raw_topic_response['property'].get('/influence/influence_node/influenced'):
                 result['BusinessPerson']['influenced'] = raw_topic_response['property']['/influence/influence_node/influenced']
 
-
         return result
+
 
     def load(self, transformed_response):
         print "loading...\n"
@@ -116,7 +119,7 @@ class InfoBox(object):
             for mapped_property, stem_patterns in PROPERTIES.iteritems():
                 for full_pattern in raw_topic_response['property'].keys():
                     for stem_pattern in stem_patterns:
-                        if (stem_pattern in full_pattern) and (mapped_property not in entities) :
+                        if (stem_pattern in full_pattern) and (mapped_property not in entities) and (full_pattern not in EXCLUDED_PROPERTIES) :
                             entities += [mapped_property]
         return entities
 

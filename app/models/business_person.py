@@ -16,23 +16,31 @@ class BusinessPerson(object):
 
     def print_box(self):
         table = PrettyTable()
-        table.add_row(["Founded", "     "])
-        for found in self.founded:
-            table.add_row(["     ", found])
-        table.add_row(["Influenced", "      "])
-        for influence in self.influenced:
-            table.add_row(["     ", influence])
+        if len(self.founded) > 0:
+            table.add_row(["Founded", "     "])
+            for found in self.founded:
+                table.add_row(["     ", found])
+        if len(self.influenced) > 0:
+            table.add_row(["Influenced", "      "])
+            for influence in self.influenced:
+                table.add_row(["     ", influence])
         table.header = False
         table.align = 'l'
         print table
 
         nested_table = PrettyTable()
-        nested_table.add_row(["Leadership", "Organization", "Role", "Title", "From", "To"])
-        for leadership in self.leaderships:
-            nested_table.add_row(["        ", leadership.get("organization"), leadership.get("role"), leadership.get("title"), leadership.get("from"), leadership.get("to")])
-        nested_table.add_row(["Board Member", "Organization", "Role", "Title", "From", "To"])
-        for member in self.board_member:
-            nested_table.add_row(["        ", member.get("organization"), member.get("role"), member.get("title"), member.get("from"), member.get("to")])
-        nested_table.header = False
-        nested_table.align = 'l'
-        print nested_table
+        if len(self.leaderships) > 0:
+            nested_table.add_row(["Leadership", "Organization", "Role", "Title", "From", "To"])
+            for leadership in self.leaderships:
+                nested_table.add_row(["        ", leadership.get("organization"), leadership.get("role"), leadership.get("title"), leadership.get("from"), leadership.get("to")])
+
+        if len(self.board_member) > 0:
+            nested_table.add_row(["     ", "    ", "    ", "    ", "    ", "    "])
+            nested_table.add_row(["Board Member", "Organization", "Role", "Title", "From", "To"])
+            for member in self.board_member:
+                nested_table.add_row(["        ", member.get("organization"), member.get("role"), member.get("title"), member.get("from"), member.get("to")])
+
+        if (len(self.leaderships) > 0 or len(self.board_member) > 0):
+            nested_table.header = False
+            nested_table.align = 'l'
+            print nested_table

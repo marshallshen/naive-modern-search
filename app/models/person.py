@@ -11,7 +11,9 @@ class Person(object):
         self.birthday = extract_value_by_text(extracted_hash, 'date_of_birth')
         self.place_of_birth = extract_value_by_text(extracted_hash, 'place_of_birth')
         self.siblings = extract_values_by_property(extracted_hash, 'sibling_s', '/people/sibling_relationship/sibling')
-        self.spouses = self.composite_values_by_property(extracted_hash['spouse_s'])
+        if extracted_hash.get('spouse_s'):
+            self.spouses = self.composite_values_by_property(extracted_hash['spouse_s'])
+
         return self
 
     def composite_values_by_property(self, spouses_hash):
@@ -23,7 +25,6 @@ class Person(object):
             married_to = None
 
             spouse = value['property']['/people/marriage/spouse']['values'][0]['text']
-            print value
             if value['property'].get('/people/marriage/location_of_ceremony') and len(value['property']['/people/marriage/location_of_ceremony'].get('values')) > 0:
                 location = value['property']['/people/marriage/location_of_ceremony']['values'][0]['text']
             if value['property'].get('/people/marriage/from') and len(value['property']['/people/marriage/from'].get('values')) > 0:
@@ -48,12 +49,14 @@ class Person(object):
         table = PrettyTable()
         table.add_row(["Birthday", self.birthday])
         table.add_row(["Place Of Birth", self.place_of_birth])
-        table.add_row(["Spouses", "     "])
-        for spouse in self.spouses:
-            table.add_row(["        ", spouse])
-        table.add_row(["Siblings", "      "])
-        for sibling in self.siblings:
-            table.add_row(["        ", sibling])
+        if len(self.spouses) > 0:
+            table.add_row(["Spouses", "     "])
+            for spouse in self.spouses:
+                table.add_row(["        ", spouse])
+        if len(self.siblings) > 0:
+            table.add_row(["Siblings", "      "])
+            for sibling in self.siblings:
+                table.add_row(["        ", sibling])
         table.align = 'l'
         table.header = False
         print table

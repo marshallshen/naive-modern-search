@@ -13,11 +13,3 @@ class Description(object):
         print "| Description |"
         print "---------------"
         print self.text
-        # table = PrettyTable()
-        # table.add_row(['Description', "     "])
-        # table.add_row(["        ", self.text])
-        # table.header = False
-        # table.align = 'l'
-        # table.width = 60
-        # table.height = 50
-        # print table
