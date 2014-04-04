@@ -61,23 +61,25 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
        extract a single value from a structured freebase JSON response:
 
        extract_value_by_text('slogan')
-
+       ````
           {"sports/sports_league":
               {"slogan": {"values": [{"lang": "en", "text": "Where Amazing Happens"}]}}}
-
+       ````
     * `extract_values_by_text`
        extract an array of values from a structured freebase JSON response:
 
        extract_values_by_text('organization_founded')
 
+       ````
            {"organization/founder":
               {"organization_founded": {"values": [{"lang": "en", "text": "Microsoft" ...}, {"lang": "en", "text": "Microsoft Research"...}]}}}
+      ````
 
     * `extract_values_by_property`
        extract an array of values by decomposing property from a structured freebase JSON response, which requires a primary key and a secondary key:
 
        extract_values_by_property(extracted_hash, 'sibling_s', '/people/sibling_relationship/sibling')
-
+       ````
            {u'count': 2.0,
             u'values': [{u'creator': u'/user/igupta',
                          u'id': u'/m/0j8ryqd',
@@ -132,7 +134,7 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
                          u'text': u'igupta - Kristi Gates - Sibling Relationship',
                          u'timestamp': u'2012-04-20T02:56:29.001Z'}],
             u'valuetype': u'compound'}
-
+      ````
     * `extract_nested_values_by_property`
        extract a list related attributes (i.e. information about player roster: what is the postion? when did the player start & end playing?),
        the method requires a primary key and a list of secondary keys.
@@ -141,6 +143,7 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
 
        extract_nested_values_by_property(extracted_hash, 'film', ['film', 'character'])
 
+       ````
          {u'count': 72.0,
           u'values': [{u'creator': u'/user/mwcl_infobox',
                        u'id': u'/m/0jsh5q',
@@ -209,6 +212,7 @@ python app/magic8ball.py "Who created Romeo and Juliet?"
                        u'text': u'Lee - Firstborn - Freebase Data Team - Film performance',
                        u'timestamp': u'2006-11-30T19:02:47.006Z'}
           u'valuetype': u'compound'}
+      ````
 
 Examples of how a model uses the 4 methods to populate values:
 
