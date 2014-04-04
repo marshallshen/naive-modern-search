@@ -17,6 +17,8 @@ Two major features are supported: Infobox and Magic 8 Ball.
 Note: I passed in my api key as the default so you don't have to pass it in.
       The option of mandating an api key can be easily supported.
 
+      API KEY: "AIzaSyCKQ-u52zqYuBcWxsldypTi0bFEkkPttCE"
+
 ### Retrieve basic info: Infobox
 ===========================================================================
 Inside the project directory. Sample test queries can be ran as the following:
