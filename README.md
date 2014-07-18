@@ -2,16 +2,40 @@
 
 ### An implmentation of modern information retrieval using [Freebase](www.freebase.com)
 --------------------------------------------------------------------------
+## Running web application locally
+````
+python bin/app.py
+````
+Then look for the following url:
+localhost:8080/search
+
+
 
 ## Dependency
 Please make sure `prettytable` is installed.
 
 ```
 easy_install prettytable
+easy_install httpretty
 ```
 or run
-"pip install prettytable --user"
+````
+pip install prettytable --user
+````
 
+## Test
+Make sure you got *nosetests* installed
+```` 
+easy_install nose
+````
+or run
+````
+pip install nose
+````
+Under your project directory, run
+````
+nosetests
+````
 ## Usage
 Two major features are supported: Infobox and Magic 8 Ball.
 Note: I passed in my api key as the default so you don't have to pass it in.
